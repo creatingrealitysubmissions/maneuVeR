@@ -50,7 +50,9 @@ private void GrabObject()
 {
 	objectInHand = collidingObject;
 	collidingObject = null;
-
+	if(objectInHand.tag =="LThrust" || objectInHand.tag == "RThrust") {
+		objectInHand.GetComponent<cockpitMovement>().grabed = true;
+	 } 
 	var joint = AddFixedJoint();
 
 	joint.connectedBody = objectInHand.GetComponent<Rigidbody>();
@@ -70,11 +72,15 @@ private void ReleaseObject()
 	{
 		GetComponent<FixedJoint>().connectedBody = null;
 		Destroy(GetComponent<FixedJoint>());
-
-		objectInHand.GetComponent<Rigidbody>().velocity = Controller.velocity;
-		objectInHand.GetComponent<Rigidbody>().angularVelocity = Controller.angularVelocity;
+		if(!(objectInHand.tag.Equals("LThrust")) || !(objectInHand.tag.Equals("RThrust")))
+		{
+			objectInHand.GetComponent<Rigidbody>().velocity = Controller.velocity;
+			objectInHand.GetComponent<Rigidbody>().angularVelocity = Controller.angularVelocity;
+		}
 	}
-
+		if (objectInHand.tag =="LThrust" || objectInHand.tag == "RThrust") {
+			objectInHand.GetComponent<cockpitMovement>().grabed= false;
+	}
 	objectInHand = null;
 }
 

@@ -4,14 +4,47 @@ using UnityEngine;
 
 public class cockpitMovement : MonoBehaviour {
 
-	private bool grabed = false;
+	public bool grabed = false;
+	public GameObject shifter;
+	//public GameObject knob;
+	private Rigidbody rbxrotation;
+	private Rigidbody rbxposition;
 	// Use this for initialization
 	void Start () {
-		
+	//	rbxrotation = shifter.GetComponent<Rigidbody>();
+		rbxposition = this.GetComponent<Rigidbody>();
+
+
 	}
 
 	// Update is called once per frame
-	void Update () {
-		
+	void Update () 
+	{
+		if (grabed) 
+		{
+			rbxposition.isKinematic = false;
+			rbxposition.useGravity = true;
+		}
+
+		if(!grabed)
+		 {
+			rbxposition.isKinematic = true;
+			rbxposition.useGravity = false;
+		 }
+
+		 if(rbxposition.transform.position.x >= 0.1)
+		 {	
+		 	rbxposition.constraints = RigidbodyConstraints.FreezeAll;
+
+		 }
+		 else if(rbxposition.transform.position.x <= -0.1)
+		 {
+			rbxposition.constraints = RigidbodyConstraints.FreezeAll;
+		 }
+		 else
+		 {
+		 	rbxposition.constraints = RigidbodyConstraints.None;
+		 	rbxposition.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
+		 }
 	}
 }

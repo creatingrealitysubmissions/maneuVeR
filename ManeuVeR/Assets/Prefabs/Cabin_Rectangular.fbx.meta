@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 9b98bc768aeb69044a45ce3b9e328545
+timeCreated: 1520967757
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: '3D View: {3D}'
+    100002: Basic Wall Generic - 200mm [341133]
+    100004: Basic Wall Generic - 200mm [341148]
+    100006: Basic Wall Generic - 200mm [341221]
+    100008: Basic Wall Generic - 200mm [341265]
+    100010: //RootNode
+    100012: Floor Generic 150mm [341628]
+    100014: Floor Generic 150mm [341659]
+    100016: Screen Screen [342866]
+    100018: Screen1 Screen [342908]
+    100020: Screen2 Screen [343195]
+    100022: Tablero Tablero [342729]
+    400000: '3D View: {3D}'
+    400002: Basic Wall Generic - 200mm [341133]
+    400004: Basic Wall Generic - 200mm [341148]
+    400006: Basic Wall Generic - 200mm [341221]
+    400008: Basic Wall Generic - 200mm [341265]
+    400010: //RootNode
+    400012: Floor Generic 150mm [341628]
+    400014: Floor Generic 150mm [341659]
+    400016: Screen Screen [342866]
+    400018: Screen1 Screen [342908]
+    400020: Screen2 Screen [343195]
+    400022: Tablero Tablero [342729]
+    2000000: '3D View: {3D}'
+    2100000: No Name
+    2300000: Basic Wall Generic - 200mm [341133]
+    2300002: Basic Wall Generic - 200mm [341148]
+    2300004: Basic Wall Generic - 200mm [341221]
+    2300006: Basic Wall Generic - 200mm [341265]
+    2300008: Floor Generic 150mm [341628]
+    2300010: Floor Generic 150mm [341659]
+    2300012: Screen Screen [342866]
+    2300014: Screen1 Screen [342908]
+    2300016: Screen2 Screen [343195]
+    2300018: Tablero Tablero [342729]
+    3300000: Basic Wall Generic - 200mm [341133]
+    3300002: Basic Wall Generic - 200mm [341148]
+    3300004: Basic Wall Generic - 200mm [341221]
+    3300006: Basic Wall Generic - 200mm [341265]
+    3300008: Floor Generic 150mm [341628]
+    3300010: Floor Generic 150mm [341659]
+    3300012: Screen Screen [342866]
+    3300014: Screen1 Screen [342908]
+    3300016: Screen2 Screen [343195]
+    3300018: Tablero Tablero [342729]
+    4300000: Basic Wall Generic - 200mm [341133]
+    4300002: Basic Wall Generic - 200mm [341148]
+    4300004: Basic Wall Generic - 200mm [341221]
+    4300006: Basic Wall Generic - 200mm [341265]
+    4300008: Floor Generic 150mm [341628]
+    4300010: Floor Generic 150mm [341659]
+    4300012: Tablero Tablero [342729]
+    4300014: Screen Screen [342866]
+    4300016: Screen1 Screen [342908]
+    4300018: Screen2 Screen [343195]
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
