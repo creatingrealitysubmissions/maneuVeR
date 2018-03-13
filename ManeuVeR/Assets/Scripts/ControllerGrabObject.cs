@@ -93,6 +93,15 @@ private void ReleaseObject()
 				GrabObject();
 			}
 		}
+		if (objectInHand)
+		{
+			if (objectInHand.tag =="LThrust" || objectInHand.tag == "RThrust")
+			{
+				if(objectInHand.GetComponent<cockpitMovement>().grabed == false) {
+					ReleaseObject();
+				}
+			}
+		}
 
 		if(Controller.GetHairTriggerUp())
 		{

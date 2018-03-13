@@ -32,19 +32,11 @@ public class cockpitMovement : MonoBehaviour {
 			rbxposition.useGravity = false;
 		 }
 
-		 if(rbxposition.transform.position.x >= 0.1)
+		if(rbxposition.transform.position.x >= 0.1 || rbxposition.transform.position.x <= -0.1)
 		 {	
-		 	rbxposition.constraints = RigidbodyConstraints.FreezeAll;
+		 	grabed = false;
 
 		 }
-		 else if(rbxposition.transform.position.x <= -0.1)
-		 {
-			rbxposition.constraints = RigidbodyConstraints.FreezeAll;
-		 }
-		 else
-		 {
-		 	rbxposition.constraints = RigidbodyConstraints.None;
-		 	rbxposition.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
-		 }
+	
 	}
 }
