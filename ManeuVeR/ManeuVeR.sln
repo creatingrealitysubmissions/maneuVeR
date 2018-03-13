@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManeuVeR", "Assembly-CSharp.csproj", "{04DFABDC-DEC0-63C9-DCC4-8ED79F3185EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManeuVeR", "Assembly-CSharp-Editor.csproj", "{4DE49E12-770C-16F9-C8B1-796D28EECCBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04DFABDC-DEC0-63C9-DCC4-8ED79F3185EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DFABDC-DEC0-63C9-DCC4-8ED79F3185EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DFABDC-DEC0-63C9-DCC4-8ED79F3185EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DFABDC-DEC0-63C9-DCC4-8ED79F3185EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE49E12-770C-16F9-C8B1-796D28EECCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE49E12-770C-16F9-C8B1-796D28EECCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE49E12-770C-16F9-C8B1-796D28EECCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE49E12-770C-16F9-C8B1-796D28EECCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
