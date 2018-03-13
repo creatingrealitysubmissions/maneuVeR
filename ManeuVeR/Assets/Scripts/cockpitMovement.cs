@@ -9,11 +9,17 @@ public class cockpitMovement : MonoBehaviour {
 	//public GameObject knob;
 	private Rigidbody rbxrotation;
 	private Rigidbody rbxposition;
+
+	private Vector3 originalPosition;
+
+	private Vector3 tempPosition; 
+	private int count = 0;
 	// Use this for initialization
 	void Start () {
 	//	rbxrotation = shifter.GetComponent<Rigidbody>();
 		rbxposition = this.GetComponent<Rigidbody>();
 
+		originalPosition = rbxposition.transform.localPosition;
 
 	}
 
@@ -30,12 +36,25 @@ public class cockpitMovement : MonoBehaviour {
 		 {
 			rbxposition.isKinematic = true;
 			rbxposition.useGravity = false;
+
+			if(count >= 1)
+			{
+				count = 0;
+				rbxposition.transform.localPosition = tempPosition;
+			}
+
+			rbxposition.transform.localPosition = Vector3.Lerp(rbxposition.transform.localPosition, originalPosition, 0.5f * Time.deltaTime);
 		 }
 
-		if(rbxposition.transform.position.x >= 0.1 || rbxposition.transform.position.x <= -0.1)
+		if(rbxposition.transform.localPosition.x >= 0.18 || rbxposition.transform.localPosition.x <= -0.18)
 		 {	
-		 	grabed = false;
-
+			if(count >= 0)
+		 	{
+		 		tempPosition = rbxposition.transform.localPosition;
+		 		count++;
+		 	}
+		
+			rbxposition.transform.localPosition = Vector3.Lerp(rbxposition.transform.localPosition, originalPosition, 0.5f * Time.deltaTime);
 		 }
 	
 	}
