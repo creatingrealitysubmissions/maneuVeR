@@ -18,6 +18,8 @@ TagManager:
   - LShift
   - RShift
   - World
+  - LeftHand
+  - RightHand
   layers:
   - Default
   - TransparentFX

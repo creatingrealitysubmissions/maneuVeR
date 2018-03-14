@@ -17,13 +17,13 @@ public class assignGearValue : MonoBehaviour {
 			gearValue = .50f;
 		}
 		else if(this.gameObject.tag == "F1") {
-			gearValue = .25f;
+			gearValue = .0f;
 		}
 		else if(this.gameObject.tag == "Neu") {
 			gearValue = .0f;
 		}
 		else if(this.gameObject.tag == "B1") {
-			gearValue = -.25f;
+			gearValue = 0f;
 		}
 		else if(this.gameObject.tag == "B2") {
 			gearValue = -.50f;

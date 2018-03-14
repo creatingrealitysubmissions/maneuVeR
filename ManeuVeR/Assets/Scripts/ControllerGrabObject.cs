@@ -8,6 +8,9 @@ private SteamVR_TrackedObject trackedObj;
 private GameObject collidingObject;
 private GameObject objectInHand;
 
+public bool fire = false;
+public bool fly = false;
+
 private SteamVR_Controller.Device Controller
 {
 	get{ return SteamVR_Controller.Input((int)trackedObj.index);}
@@ -92,6 +95,7 @@ private void ReleaseObject()
 			{
 				GrabObject();
 			}
+	
 		}
 
 		if(Controller.GetHairTriggerUp())
@@ -101,7 +105,23 @@ private void ReleaseObject()
 				ReleaseObject();
 			}
 		}
+		if(Controller.GetPressDown(SteamVR_Controller.ButtonMask.Touchpad)) {
+				fire =true;
+			}
+			if(Controller.GetPressDown(SteamVR_Controller.ButtonMask.Grip)) {
+				fly = true;
+			}
+			if(Controller.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad)) {
+				fire =false;
+			}
+			if(Controller.GetPressUp(SteamVR_Controller.ButtonMask.Grip)) {
+				fly = false;
+			}
 
+	}
 
+	public bool returnFly()
+	{
+		return fly; 
 	}
 }
