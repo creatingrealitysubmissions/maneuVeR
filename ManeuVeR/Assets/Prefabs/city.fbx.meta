@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 1b773f2a05bb5b8469a896205f2a3824
+timeCreated: 1520985083
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ' Extrusion [2697]'
+    100002: ' Extrusion [3079]'
+    100004: ' Extrusion [3434]'
+    100006: ' Extrusion [3713]'
+    100008: ' Extrusion [4091]'
+    100010: ' Extrusion [4407]'
+    100012: ' Extrusion [4656]'
+    100014: ' Extrusion [4998]'
+    100016: ' Extrusion [5229]'
+    100018: ' Extrusion [5566]'
+    100020: ' Extrusion [5612]'
+    100022: ' Extrusion [5862]'
+    100024: ' Extrusion [6073]'
+    100026: ' Extrusion [6301]'
+    100028: ' Extrusion [6539]'
+    100030: ' Extrusion [7129]'
+    100032: ' Extrusion [7502]'
+    100034: ' Extrusion [7746]'
+    100036: ' Extrusion [7985]'
+    100038: ' Extrusion [8230]'
+    100040: ' Extrusion [8450]'
+    100042: ' Extrusion [8696]'
+    100044: '3D View: {3D}'
+    100046: Box01
+    100048: Box02
+    100050: Box03
+    100052: Box06
+    100054: Box07
+    100056: Box08
+    100058: Box09
+    100060: Box10
+    100062: Box11
+    100064: Box12
+    100066: Box13
+    100068: Box14
+    100070: Box15
+    100072: Box16
+    100074: Box17
+    100076: Box18
+    100078: Box19
+    100080: Box20
+    100082: Box21
+    100084: Box22
+    100086: Box23
+    100088: Box24
+    100090: Box25
+    100092: Box26
+    100094: Box27
+    100096: Box28
+    100098: Box29
+    100100: Box30
+    100102: Box31
+    100104: Box32
+    100106: Box33
+    100108: Box34
+    100110: Box35
+    100112: Box36
+    100114: Box37
+    100116: Box38
+    100118: Box39
+    100120: Box40
+    100122: Box41
+    100124: Box42
+    100126: Box43
+    100128: Box44
+    100130: Box45
+    100132: Box46
+    100134: Box47
+    100136: //RootNode
+    100138: Plane001
+    400000: ' Extrusion [2697]'
+    400002: ' Extrusion [3079]'
+    400004: ' Extrusion [3434]'
+    400006: ' Extrusion [3713]'
+    400008: ' Extrusion [4091]'
+    400010: ' Extrusion [4407]'
+    400012: ' Extrusion [4656]'
+    400014: ' Extrusion [4998]'
+    400016: ' Extrusion [5229]'
+    400018: ' Extrusion [5566]'
+    400020: ' Extrusion [5612]'
+    400022: ' Extrusion [5862]'
+    400024: ' Extrusion [6073]'
+    400026: ' Extrusion [6301]'
+    400028: ' Extrusion [6539]'
+    400030: ' Extrusion [7129]'
+    400032: ' Extrusion [7502]'
+    400034: ' Extrusion [7746]'
+    400036: ' Extrusion [7985]'
+    400038: ' Extrusion [8230]'
+    400040: ' Extrusion [8450]'
+    400042: ' Extrusion [8696]'
+    400044: '3D View: {3D}'
+    400046: Box01
+    400048: Box02
+    400050: Box03
+    400052: Box06
+    400054: Box07
+    400056: Box08
+    400058: Box09
+    400060: Box10
+    400062: Box11
+    400064: Box12
+    400066: Box13
+    400068: Box14
+    400070: Box15
+    400072: Box16
+    400074: Box17
+    400076: Box18
+    400078: Box19
+    400080: Box20
+    400082: Box21
+    400084: Box22
+    400086: Box23
+    400088: Box24
+    400090: Box25
+    400092: Box26
+    400094: Box27
+    400096: Box28
+    400098: Box29
+    400100: Box30
+    400102: Box31
+    400104: Box32
+    400106: Box33
+    400108: Box34
+    400110: Box35
+    400112: Box36
+    400114: Box37
+    400116: Box38
+    400118: Box39
+    400120: Box40
+    400122: Box41
+    400124: Box42
+    400126: Box43
+    400128: Box44
+    400130: Box45
+    400132: Box46
+    400134: Box47
+    400136: //RootNode
+    400138: Plane001
+    2000000: '3D View: {3D}'
+    2100000: 'Material #40'
+    2100002: 07 - Default
+    2100004: 'Material #39'
+    2100006: 'Material #38'
+    2100008: 'Material #37'
+    2100010: 'Material #41'
+    2100012: No Name
+    2300000: ' Extrusion [2697]'
+    2300002: ' Extrusion [3079]'
+    2300004: ' Extrusion [3434]'
+    2300006: ' Extrusion [3713]'
+    2300008: ' Extrusion [4091]'
+    2300010: ' Extrusion [4407]'
+    2300012: ' Extrusion [4656]'
+    2300014: ' Extrusion [4998]'
+    2300016: ' Extrusion [5229]'
+    2300018: ' Extrusion [5566]'
+    2300020: ' Extrusion [5612]'
+    2300022: ' Extrusion [5862]'
+    2300024: ' Extrusion [6073]'
+    2300026: ' Extrusion [6301]'
+    2300028: ' Extrusion [6539]'
+    2300030: ' Extrusion [7129]'
+    2300032: ' Extrusion [7502]'
+    2300034: ' Extrusion [7746]'
+    2300036: ' Extrusion [7985]'
+    2300038: ' Extrusion [8230]'
+    2300040: ' Extrusion [8450]'
+    2300042: ' Extrusion [8696]'
+    2300044: Box01
+    2300046: Box02
+    2300048: Box03
+    2300050: Box06
+    2300052: Box07
+    2300054: Box08
+    2300056: Box09
+    2300058: Box10
+    2300060: Box11
+    2300062: Box12
+    2300064: Box13
+    2300066: Box14
+    2300068: Box15
+    2300070: Box16
+    2300072: Box17
+    2300074: Box18
+    2300076: Box19
+    2300078: Box20
+    2300080: Box21
+    2300082: Box22
+    2300084: Box23
+    2300086: Box24
+    2300088: Box25
+    2300090: Box26
+    2300092: Box27
+    2300094: Box28
+    2300096: Box29
+    2300098: Box30
+    2300100: Box31
+    2300102: Box32
+    2300104: Box33
+    2300106: Box34
+    2300108: Box35
+    2300110: Box36
+    2300112: Box37
+    2300114: Box38
+    2300116: Box39
+    2300118: Box40
+    2300120: Box41
+    2300122: Box42
+    2300124: Box43
+    2300126: Box44
+    2300128: Box45
+    2300130: Box46
+    2300132: Box47
+    2300134: Plane001
+    3300000: ' Extrusion [2697]'
+    3300002: ' Extrusion [3079]'
+    3300004: ' Extrusion [3434]'
+    3300006: ' Extrusion [3713]'
+    3300008: ' Extrusion [4091]'
+    3300010: ' Extrusion [4407]'
+    3300012: ' Extrusion [4656]'
+    3300014: ' Extrusion [4998]'
+    3300016: ' Extrusion [5229]'
+    3300018: ' Extrusion [5566]'
+    3300020: ' Extrusion [5612]'
+    3300022: ' Extrusion [5862]'
+    3300024: ' Extrusion [6073]'
+    3300026: ' Extrusion [6301]'
+    3300028: ' Extrusion [6539]'
+    3300030: ' Extrusion [7129]'
+    3300032: ' Extrusion [7502]'
+    3300034: ' Extrusion [7746]'
+    3300036: ' Extrusion [7985]'
+    3300038: ' Extrusion [8230]'
+    3300040: ' Extrusion [8450]'
+    3300042: ' Extrusion [8696]'
+    3300044: Box01
+    3300046: Box02
+    3300048: Box03
+    3300050: Box06
+    3300052: Box07
+    3300054: Box08
+    3300056: Box09
+    3300058: Box10
+    3300060: Box11
+    3300062: Box12
+    3300064: Box13
+    3300066: Box14
+    3300068: Box15
+    3300070: Box16
+    3300072: Box17
+    3300074: Box18
+    3300076: Box19
+    3300078: Box20
+    3300080: Box21
+    3300082: Box22
+    3300084: Box23
+    3300086: Box24
+    3300088: Box25
+    3300090: Box26
+    3300092: Box27
+    3300094: Box28
+    3300096: Box29
+    3300098: Box30
+    3300100: Box31
+    3300102: Box32
+    3300104: Box33
+    3300106: Box34
+    3300108: Box35
+    3300110: Box36
+    3300112: Box37
+    3300114: Box38
+    3300116: Box39
+    3300118: Box40
+    3300120: Box41
+    3300122: Box42
+    3300124: Box43
+    3300126: Box44
+    3300128: Box45
+    3300130: Box46
+    3300132: Box47
+    3300134: Plane001
+    4300000: Box02
+    4300002: Box03
+    4300004: Box06
+    4300006: Box07
+    4300008: Box08
+    4300010: Box09
+    4300012: Box10
+    4300014: Box11
+    4300016: Box12
+    4300018: Box13
+    4300020: Box14
+    4300022: Box15
+    4300024: Box16
+    4300026: Box17
+    4300028: Box18
+    4300030: Box19
+    4300032: Box20
+    4300034: Box21
+    4300036: Box22
+    4300038: Box23
+    4300040: Box24
+    4300042: Box25
+    4300044: Box26
+    4300046: Box27
+    4300048: Box01
+    4300050: Box28
+    4300052: Box29
+    4300054: Box30
+    4300056: Box31
+    4300058: Box32
+    4300060: Box33
+    4300062: Box34
+    4300064: Box35
+    4300066: Box36
+    4300068: Box37
+    4300070: Box38
+    4300072: Box39
+    4300074: Box40
+    4300076: Box41
+    4300078: Box42
+    4300080: Box43
+    4300082: Box44
+    4300084: Box45
+    4300086: Box46
+    4300088: Box47
+    4300090: ' Extrusion [2697]'
+    4300092: ' Extrusion [3079]'
+    4300094: ' Extrusion [3434]'
+    4300096: ' Extrusion [3713]'
+    4300098: ' Extrusion [4091]'
+    4300100: ' Extrusion [4407]'
+    4300102: ' Extrusion [4656]'
+    4300104: ' Extrusion [4998]'
+    4300106: ' Extrusion [5229]'
+    4300108: ' Extrusion [5566]'
+    4300110: ' Extrusion [5612]'
+    4300112: ' Extrusion [5862]'
+    4300114: ' Extrusion [6073]'
+    4300116: ' Extrusion [6301]'
+    4300118: ' Extrusion [6539]'
+    4300120: ' Extrusion [7129]'
+    4300122: ' Extrusion [7502]'
+    4300124: ' Extrusion [7746]'
+    4300126: ' Extrusion [7985]'
+    4300128: ' Extrusion [8230]'
+    4300130: ' Extrusion [8450]'
+    4300132: ' Extrusion [8696]'
+    4300134: Plane001
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

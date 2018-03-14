@@ -13,13 +13,14 @@ public class cockpitMovement : MonoBehaviour {
 	private Vector3 originalPosition;
 
 	private Vector3 tempPosition; 
-	private int count = 0;
+
 	// Use this for initialization
 	void Start () {
 	//	rbxrotation = shifter.GetComponent<Rigidbody>();
 		rbxposition = this.GetComponent<Rigidbody>();
 
 		originalPosition = rbxposition.transform.localPosition;
+		tempPosition = originalPosition;
 
 	}
 
@@ -36,25 +37,21 @@ public class cockpitMovement : MonoBehaviour {
 		 {
 			rbxposition.isKinematic = true;
 			rbxposition.useGravity = false;
-
-			if(count >= 1)
-			{
-				count = 0;
+			if(!(rbxposition.transform.localPosition.x <= .18 && rbxposition.transform.localPosition.x >= -.18)){
 				rbxposition.transform.localPosition = tempPosition;
 			}
-
 			rbxposition.transform.localPosition = Vector3.Lerp(rbxposition.transform.localPosition, originalPosition, 0.5f * Time.deltaTime);
 		 }
 
 		if(rbxposition.transform.localPosition.x >= 0.18 || rbxposition.transform.localPosition.x <= -0.18)
 		 {	
-			if(count >= 0)
-		 	{
-		 		tempPosition = rbxposition.transform.localPosition;
-		 		count++;
+		 	//alex code
+		 	if(rbxposition.transform.localPosition.x >= .18) {
+		 		tempPosition = new Vector3(.18f,.22f,0);
+		 		}
+		 	else{
+				tempPosition = new Vector3(-.18f,.22f,0);
 		 	}
-		
-			rbxposition.transform.localPosition = Vector3.Lerp(rbxposition.transform.localPosition, originalPosition, 0.5f * Time.deltaTime);
 		 }
 	
 	}
