@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\comtrollers.cs" />
      <Compile Include="Assets\Scripts\ControllerGrabObject.cs" />
      <Compile Include="Assets\Scripts\Missile.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
