@@ -51,14 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\cameraFeed.cs" />
+     <Compile Include="Assets\Scripts\assignGearValue.cs" />
      <Compile Include="Assets\Scripts\BulletErase.cs" />
      <Compile Include="Assets\Scripts\Bullets.cs" />
+     <Compile Include="Assets\Scripts\cameraFeed.cs" />
      <Compile Include="Assets\Scripts\cockpitMovement.cs" />
      <Compile Include="Assets\Scripts\comtrollers.cs" />
      <Compile Include="Assets\Scripts\ControllerGrabObject.cs" />
      <Compile Include="Assets\Scripts\Missile.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\thrustAllignment.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />

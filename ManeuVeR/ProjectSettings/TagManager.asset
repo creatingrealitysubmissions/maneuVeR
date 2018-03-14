@@ -6,6 +6,18 @@ TagManager:
   tags:
   - LThrust
   - RThrust
+  - Neu
+  - B1
+  - B2
+  - B3
+  - B4
+  - F1
+  - F2
+  - F3
+  - F4
+  - LShift
+  - RShift
+  - World
   layers:
   - Default
   - TransparentFX

@@ -35,6 +35,7 @@ public class cockpitMovement : MonoBehaviour {
 	{
 		if (grabed) 
 		{
+
 			rbxposition.isKinematic = false;
 			rbxposition.useGravity = true;
 			if(rbxposition.transform.localPosition.z >= 0.22 || rbxposition.transform.localPosition.z <= -0.22)
@@ -42,11 +43,16 @@ public class cockpitMovement : MonoBehaviour {
 			 	//alex code
 			 	if(rbxposition.transform.localPosition.z >= .22) {
 					handlePosition.z = .22f;
+					rbxposition.velocity =Vector3.zero;
+					rbxposition.angularVelocity = Vector3.zero;
 					rbxrotation.transform.localPosition = Vector3.Lerp(rbxrotation.transform.localPosition,handlePosition,speed * Time.deltaTime);
+				
 			 		}
 			 	else{
 
 					handlePosition.z = -.22f;
+					rbxposition.velocity =Vector3.zero;
+					rbxposition.angularVelocity = Vector3.zero;
 					rbxrotation.transform.localPosition = Vector3.Lerp(rbxrotation.transform.localPosition,handlePosition,speed * Time.deltaTime);
 			 	}
 		 	}
@@ -54,8 +60,10 @@ public class cockpitMovement : MonoBehaviour {
 
 		 		handlePosition.z = rbxposition.transform.localPosition.z; 
 		 		//handlePosition = new Vector3(0f,.15f,rbxposition.transform.localPosition.z);
+				rbxposition.velocity =Vector3.zero;
+					rbxposition.angularVelocity = Vector3.zero;
 		 		rbxrotation.transform.localPosition = Vector3.Lerp(rbxrotation.transform.localPosition,handlePosition,speed * Time.deltaTime);
-		 	}
+		}
 
 		}
 
@@ -83,3 +91,4 @@ public class cockpitMovement : MonoBehaviour {
 	
 	}
 }
+

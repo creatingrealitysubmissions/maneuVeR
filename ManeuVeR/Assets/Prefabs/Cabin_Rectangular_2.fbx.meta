@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 85982ab0a6a453f4abf6ac32f1c9dac6
+timeCreated: 1521047683
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: '3D View: {3D}'
+    100002: Basic Wall Generic - 100mm [341366]
+    100004: Basic Wall Generic - 100mm [341370]
+    100006: Basic Wall Generic - 100mm [341374]
+    100008: Basic Wall Generic - 100mm [341378]
+    100010: Basic Wall Generic - 100mm [343479]
+    100012: Basic Wall Generic - 100mm [343540]
+    100014: //RootNode
+    100016: CHAMFER CHAMFER [343152]
+    100018: Floor Generic 150mm [341295]
+    100020: Floor Generic 150mm [341520]
+    100022: instruments instruments [344866]
+    100024: INSTRUMENTS TABLE INSTRUMENTS TABLE [342785]
+    100026: instruments1 instruments [344895]
+    100028: instruments2 instruments [344973]
+    100030: instruments3 instruments [345016]
+    100032: Screen1 Screen2 [344526]
+    100034: Screen2 Screen2 [343703]
+    100036: Screen3 Screen3 [344503]
+    100038: Screen4 Screen3 [344538]
+    100040: screens screens [343403]
+    100042: System Panel Glazed [345440]
+    400000: '3D View: {3D}'
+    400002: Basic Wall Generic - 100mm [341366]
+    400004: Basic Wall Generic - 100mm [341370]
+    400006: Basic Wall Generic - 100mm [341374]
+    400008: Basic Wall Generic - 100mm [341378]
+    400010: Basic Wall Generic - 100mm [343479]
+    400012: Basic Wall Generic - 100mm [343540]
+    400014: //RootNode
+    400016: CHAMFER CHAMFER [343152]
+    400018: Floor Generic 150mm [341295]
+    400020: Floor Generic 150mm [341520]
+    400022: instruments instruments [344866]
+    400024: INSTRUMENTS TABLE INSTRUMENTS TABLE [342785]
+    400026: instruments1 instruments [344895]
+    400028: instruments2 instruments [344973]
+    400030: instruments3 instruments [345016]
+    400032: Screen1 Screen2 [344526]
+    400034: Screen2 Screen2 [343703]
+    400036: Screen3 Screen3 [344503]
+    400038: Screen4 Screen3 [344538]
+    400040: screens screens [343403]
+    400042: System Panel Glazed [345440]
+    2000000: '3D View: {3D}'
+    2100000: No Name
+    2300000: Basic Wall Generic - 100mm [341366]
+    2300002: Basic Wall Generic - 100mm [341370]
+    2300004: Basic Wall Generic - 100mm [341374]
+    2300006: Basic Wall Generic - 100mm [341378]
+    2300008: Basic Wall Generic - 100mm [343479]
+    2300010: Basic Wall Generic - 100mm [343540]
+    2300012: CHAMFER CHAMFER [343152]
+    2300014: Floor Generic 150mm [341295]
+    2300016: Floor Generic 150mm [341520]
+    2300018: instruments instruments [344866]
+    2300020: INSTRUMENTS TABLE INSTRUMENTS TABLE [342785]
+    2300022: instruments1 instruments [344895]
+    2300024: instruments2 instruments [344973]
+    2300026: instruments3 instruments [345016]
+    2300028: Screen1 Screen2 [344526]
+    2300030: Screen2 Screen2 [343703]
+    2300032: Screen3 Screen3 [344503]
+    2300034: Screen4 Screen3 [344538]
+    2300036: screens screens [343403]
+    2300038: System Panel Glazed [345440]
+    3300000: Basic Wall Generic - 100mm [341366]
+    3300002: Basic Wall Generic - 100mm [341370]
+    3300004: Basic Wall Generic - 100mm [341374]
+    3300006: Basic Wall Generic - 100mm [341378]
+    3300008: Basic Wall Generic - 100mm [343479]
+    3300010: Basic Wall Generic - 100mm [343540]
+    3300012: CHAMFER CHAMFER [343152]
+    3300014: Floor Generic 150mm [341295]
+    3300016: Floor Generic 150mm [341520]
+    3300018: instruments instruments [344866]
+    3300020: INSTRUMENTS TABLE INSTRUMENTS TABLE [342785]
+    3300022: instruments1 instruments [344895]
+    3300024: instruments2 instruments [344973]
+    3300026: instruments3 instruments [345016]
+    3300028: Screen1 Screen2 [344526]
+    3300030: Screen2 Screen2 [343703]
+    3300032: Screen3 Screen3 [344503]
+    3300034: Screen4 Screen3 [344538]
+    3300036: screens screens [343403]
+    3300038: System Panel Glazed [345440]
+    4300000: Floor Generic 150mm [341295]
+    4300002: Basic Wall Generic - 100mm [341366]
+    4300004: Basic Wall Generic - 100mm [341370]
+    4300006: Basic Wall Generic - 100mm [341374]
+    4300008: Basic Wall Generic - 100mm [341378]
+    4300010: Floor Generic 150mm [341520]
+    4300012: INSTRUMENTS TABLE INSTRUMENTS TABLE [342785]
+    4300014: CHAMFER CHAMFER [343152]
+    4300016: screens screens [343403]
+    4300018: Basic Wall Generic - 100mm [343479]
+    4300020: Basic Wall Generic - 100mm [343540]
+    4300022: Screen2 Screen2 [343703]
+    4300024: Screen3 Screen3 [344503]
+    4300026: Screen1 Screen2 [344526]
+    4300028: Screen4 Screen3 [344538]
+    4300030: instruments instruments [344866]
+    4300032: instruments1 instruments [344895]
+    4300034: instruments2 instruments [344973]
+    4300036: instruments3 instruments [345016]
+    4300038: System Panel Glazed [345440]
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
