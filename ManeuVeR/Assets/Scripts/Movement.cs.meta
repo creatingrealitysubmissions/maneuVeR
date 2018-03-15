@@ -1,11 +1,23 @@
 fileFormatVersion: 2
 guid: 29ecbf548b531f849a1f706937988a7d
-timeCreated: 1521006914
+timeCreated: 1521073706
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - leftThrust: {instanceID: 0}
+  - rightThrust: {instanceID: 0}
+  - leftCollider: {instanceID: 0}
+  - rightCollider: {instanceID: 0}
+  - leftHand: {instanceID: 0}
+  - rightHand: {instanceID: 0}
+  - thrusters: {instanceID: 0}
+  - levers: {instanceID: 0}
+  - initializelever: {fileID: 8300000, guid: 641207a11e402bb4da500680fbe02c35, type: 3}
+  - initializelever2: {fileID: 8300000, guid: 52382ddad52c9b64aa4e9901ddc13951, type: 3}
+  - mechland: {fileID: 8300000, guid: c3e5b3eb9e50cbb48a16677352313988, type: 3}
+  - audio: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

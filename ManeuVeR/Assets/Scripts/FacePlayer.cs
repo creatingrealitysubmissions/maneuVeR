@@ -32,4 +32,17 @@ public class FacePlayer : MonoBehaviour {
             transform.position = Vector3.MoveTowards(transform.position, target.position, step);
         }
 	}
+	void OnTriggerEnter(Collider col){
+		if(col.attachedRigidbody.gameObject.tag == "Player"){
+			moveToward = false;
+		}
+	}
+
+
+
+	void OnTriggerExit(Collider col){
+		if(col.attachedRigidbody.gameObject.tag == "Player"){
+			moveToward = true;
+		}
+	}
 }

@@ -1243,6 +1243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46bd1748a24101f41bb2345c52766263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  heli: {fileID: 0}
 --- !u!114 &114347048936257024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1273,8 +1274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 20
+  speed: 10
   moveToward: 1
+  grounded: 0
 --- !u!114 &114752593079538032
 MonoBehaviour:
   m_ObjectHideFlags: 1
