@@ -1,0 +1,140 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 14.03.2018 15:58:13
+
+newmtl 03___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\USC\CreatingReality\Maps\Cabin\Used\TexturesCom_RubberFloor_512_ao.tiff
+	map_Kd D:\USC\CreatingReality\Maps\Cabin\Used\TexturesCom_RubberFloor_512_ao.tiff
+	map_bump D:\USC\CreatingReality\Maps\Cabin\Used\TexturesCom_RubberFloor_1024_albedo.tiff
+	bump D:\USC\CreatingReality\Maps\Cabin\Used\TexturesCom_RubberFloor_1024_albedo.tiff
+
+newmtl 21___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\USC\CreatingReality\Maps\Cabin\Used\TexturesCom_Plastic0144_2_M.png
+	map_Kd D:\USC\CreatingReality\Maps\Cabin\Used\TexturesCom_Plastic0144_2_M.png
+
+newmtl wire_204204204
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.8000 0.8000 0.8000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.3500 0.3500 0.3500
+
+newmtl 19___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\USC\CreatingReality\Maps\Cabin\Used\ceiling.jpg
+	map_Kd D:\USC\CreatingReality\Maps\Cabin\Used\ceiling.jpg
+
+newmtl 02___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0314 0.0314 0.0314
+	Kd 0.0314 0.0314 0.0314
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\USC\CreatingReality\Maps\Cabin\Used\black.png
+	map_Kd D:\USC\CreatingReality\Maps\Cabin\Used\black.png
+
+newmtl 3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\USC\CreatingReality\Maps\Cabin\Used\Instruments3.png
+	map_Kd D:\USC\CreatingReality\Maps\Cabin\Used\Instruments3.png
+
+newmtl 4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\USC\CreatingReality\Maps\Cabin\Used\Instruments3.png
+	map_Kd D:\USC\CreatingReality\Maps\Cabin\Used\Instruments3.png
+
+newmtl 13___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\USC\CreatingReality\Maps\Cabin\Used\Instruments3.png
+	map_Kd D:\USC\CreatingReality\Maps\Cabin\Used\Instruments3.png
+
+newmtl 01___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\USC\CreatingReality\Maps\Cabin\Used\Instruments.png
+	map_Kd D:\USC\CreatingReality\Maps\Cabin\Used\Instruments.png
+
+newmtl door
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0510 0.9882 0.0275
+	Kd 0.0510 0.9882 0.0275
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\USC\CreatingReality\Maps\Cabin\Used\TexturesCom_MetalBare0068_2_S.jpg
+	map_Kd D:\USC\CreatingReality\Maps\Cabin\Used\TexturesCom_MetalBare0068_2_S.jpg

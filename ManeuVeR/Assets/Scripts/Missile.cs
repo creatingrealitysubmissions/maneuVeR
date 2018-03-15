@@ -2,67 +2,58 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Missile : MonoBehaviour {
+public class Missile : MonoBehaviour
+{
+    //public AudioClip[] noises = new AudioClip[4];
+    AudioSource audioSource;
 
-    public Transform target;
-    private float rocketTurnSpeed;
-    private float rocketSpeed;
-    private float randomOffset;
+    public Rigidbody projectile;
+    public Transform barrel;
 
-    private float timerSinceLaunch;
-    private float objectLifeTimerValue;
+    public GameObject target;
 
-    private Rigidbody rb;
+    private float dist;
+    public float delay = 0;
+
+    public float nextfire = 0.0f;
+    public float fireSpeed = 10.0f;
+
+    //Homing hom = new Homing();
 
     // Use this for initialization
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-
-        rocketTurnSpeed = 50.0f;
-        rocketSpeed = 45f;
-        randomOffset = 0.0f;
-
-        timerSinceLaunch = 0;
-        objectLifeTimerValue = 100;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        timerSinceLaunch += Time.deltaTime;
 
-        if (target != null)
+        dist = Vector3.Distance(target.transform.position, transform.position);
+        //Debug.Log(dist);
+
+        if (dist <= 500.0f && Time.time > nextfire)
         {
-            if (timerSinceLaunch > 1)
-            {
-                if ((target.position - transform.position).magnitude > 50)
-                {
-                    randomOffset = 100.0f;
-                    rocketTurnSpeed = 90.0f;
-                    //rb.angularVelocity = rocketTurnSpeed;
+            StartCoroutine(DelayShot());
+            
+            nextfire = Time.time + fireSpeed;
 
-                }
-                else
-                {
-                    randomOffset = 5f;
-                    //if close to target
-                    if ((target.position - transform.position).magnitude < 10)
-                    {
-                        rocketTurnSpeed = 180.0f;
-                    }
-                }
-            }
-
-            Vector3 direction = target.position - transform.position + Random.insideUnitSphere * randomOffset;
-            direction.Normalize();
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(direction), rocketTurnSpeed * Time.deltaTime);
-            transform.Translate(Vector3.forward * rocketSpeed * Time.deltaTime);
         }
+    }
 
-        if (timerSinceLaunch > objectLifeTimerValue)
-        {
-            Destroy(transform.gameObject, 1);
-        }
+    IEnumerator DelayShot()
+    {
+        yield return new WaitForSeconds(delay);
+        Rigidbody projectileInstance;
+        projectileInstance = Instantiate(projectile, barrel.position, barrel.rotation) as Rigidbody;
+        audioSource.Play();
+        //audioSource.PlayOneShot(noises[Random.Range(0, 3)], 1.0f);
+
+
+        //target = projectileInstance.gameObject.GetComponent<Homing>().target;
+        //projectileInstance.AddForce(barrel.forward * 1000);
+
+
     }
 }
